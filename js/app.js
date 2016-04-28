@@ -4,8 +4,6 @@ $(document).ready(function() {
         console.log(i);
     }
 
-$("ul").append("<li>" + item + "</li>")
-
     if (i % 3) {
         (i).replaceWith("Fizz")
 

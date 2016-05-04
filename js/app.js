@@ -5,15 +5,15 @@ $(document).ready(function () {
         $('.fb-list').append('<li>' + i + '</li>');
 
         if (i % 3 === 0) {
-        	$('ul').append('fizz');
+        	$('.fb-list').append('fizz');
         }
 
         if (i % 5 === 0) {
-            $('ul').append('buzz');
+            $('.fb-list').append('buzz');
         }
 
-        if (i % 3 && i % 5 === 0) {
-            $('ul').append('fizzbuzz');
+        if (i % 15 === 0) {
+            $('.fb-list').append('fizzbuzz');
         }
 
     }
